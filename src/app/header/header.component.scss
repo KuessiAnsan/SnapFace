@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: whitesmoke;
+    box-sizing: border-box;
+    border: grey;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+nav{
+  text-align: center;
+}
+
+a {
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.active {
+  color: #666;
+  text-decoration: underline;
+}
